@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+body {
+    /* background-color: rgb(231, 250, 244); */
+    color: rgb(25, 0, 151);
+    background-image: url(https://www.shutterstock.com/image-vector/people-different-hobbies-talented-characters-260nw-2258924833.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h1 {
+    color: rgb(226, 43, 46);
+}
+
+#titulo {
+    color: rgb(0, 51, 45);
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*Si ponemos dos valores estaremos indicando sombra en el eje Y y el segundo valor sería el eje X*/
+    text-shadow: 20px 20px 50px black;
+    /* font-family: "Bungee Spice", sans-serif; */
+    /*Si añadimos un tercer valor correspondería es a blurr*/
+
+}
+
+/*
+ESPECIFICIDAD   
+En este orden se prioriza el CSS:
+    1. estilos en línea
+    2. Ids
+    3. clases
+    4. etiquetas
+    5. atributos
+*/
+
+#title-students {
+    color: salmon;
+}
+
+#title-places {
+    color: rgb(211, 129, 7);
+}
+
+#title-hobbies {
+    color: rgb(211, 76, 234);
+}
+
+/*Seleccion anidada de elementos en css*/
+#students ul li {
+    color: brown;
+}
+
+#places ul li {
+    color: rgb(231, 135, 176);
+}
+
+#hobbies ul li {
+    color: rgb(90, 130, 5);
+}
+
+/*también podemos seleccionar elementos anidados con ">" que significa descendientedirecto de*/
+
+#students, #places, #hobbies {
+    background-color: antiquewhite;
+    /*border-style: solid;*/
+    /*border-width: 10px;*/
+    /*border-color: blueviolet;*/
+    /*Podemos simplificarlo indicando el border en una línea*/
+    border: solid 10px green;
+    border-radius: 10px;
+
+    /*margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;*/
+    /*Si lo simplificamos*/
+    /* margin: 40px 80px 20px 40px; */
+    /*Si en margin ponemos dos valores el primero será para los margenes de arriba y abajo y el segundo para izda y dhca*/
+    /*Si ponemos 4 valores en margin se aplicará en los lados según las agujas del reloj empezando por arriba*/
+
+    margin: 75px;
+    padding-left: 20px;
+}
